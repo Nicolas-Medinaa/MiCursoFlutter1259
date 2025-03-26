@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:Medina1259/mi_widgets/dialogo_acerca_de.dart';
+import 'package:Medina1259/mi_widgets/listNicolas.dart';
 
 const Color darkBlue = Color(0xFF12202F);
 
@@ -20,7 +20,7 @@ class MiTarjeta extends StatelessWidget {
           title: Text('Flutter Nicolas'),
           centerTitle: true,
         ),
-        body: const DialogoAcercaDe(),
+        body: const ListNicolas(),
       ),
     );
   }
